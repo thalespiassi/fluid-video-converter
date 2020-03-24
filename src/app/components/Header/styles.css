@@ -1,0 +1,8 @@
+.Header {
+  margin-bottom: 30px;
+}
+
+.Header__brand {
+  font-weight: normal;
+  font-size: 1.5em;
+}

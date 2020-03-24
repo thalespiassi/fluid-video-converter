@@ -1,0 +1,58 @@
+.VideosListItem {
+  color: #333;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #dedede;
+}
+
+.VideosListItem__name {
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+}
+
+.VideosListItem__size {
+  color: rgb(117, 117, 117);
+  font-size: 0.8em;
+}
+
+.VideosListItem__remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #505050;
+  transition: all 0.25s ease-in-out;
+  margin-left: 15px;
+}
+
+.VideosListItem__remove:hover {
+  color: #333;
+}
+
+.VideosListItem__right {
+  display: flex;
+  min-width: 300px;
+  justify-content: flex-end;
+}
+
+.VideosListItem__right .btn {
+  margin-left: 15px;
+}
+
+.VideosListItem__format .dropdown-item {
+  font-size: 0.9em;
+  padding: 0.25rem 1rem;
+}
+
+.VideosListItem__progress {
+  border-radius: 0 !important;
+  height: 5px !important;
+}

@@ -1,0 +1,54 @@
+.VideoUpload {
+  margin-bottom: 30px;
+}
+
+.VideoUpload__dropzone {
+  flex: 1;
+}
+
+.VideoUpload__dropzone section {
+  flex: 1;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.VideoUpload__dropzone section.loading {
+  opacity: 0.95;
+  cursor: not-allowed;
+}
+
+.VideoUpload__dropzone section div {
+  padding: 2em;
+  background: #f7f7f7;
+  border: dashed 2px #808080;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #333;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.VideoUpload__dropzone .file-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.VideoUpload__dropzone section div:focus {
+  outline: none;
+  border-color: lightblue;
+}
+
+.VideoUpload__dropzone section p {
+  margin: 0;
+  padding: 0;
+}
+
+.VideoUpload__dropzone.VideoUpload__dropzone--has-videos section div {
+  min-height: 100px;
+}

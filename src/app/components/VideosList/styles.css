@@ -1,0 +1,11 @@
+.VideosList {
+  border: solid 1px #dedede;
+  border-bottom: none;
+  margin-bottom: 30px;
+  background: #f1f1f1;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.VideosList > div:nth-child(even) {
+  background: #fff;
+}

@@ -1,0 +1,17 @@
+.StartConversionButton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.StartConversionButton__trigger {
+  background-color: green;
+}
+
+.StartConversionButton__trigger:disabled {
+  cursor: not-allowed;
+}
+
+.StartConversionButton__trigger .spinner-border {
+  margin-left: 10px;
+}
